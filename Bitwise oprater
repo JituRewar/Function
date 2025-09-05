@@ -1,0 +1,20 @@
+#include<iostream>
+using namespace std;
+int main(){
+    int a = 10, b = 2;
+    // bitwise &
+    cout<<(a&b)<<endl;
+    
+    // bitwise |
+    cout<<(a|b)<<endl;
+
+    //bitwise xor(^)
+    cout<<(a^b)<<endl;
+
+    //bitwise <<(left shift)
+    cout<<(a<<b)<<endl;
+
+    //bitwise >>(right shift)
+    cout<<(a>>b)<<endl;
+    return 0;
+}
