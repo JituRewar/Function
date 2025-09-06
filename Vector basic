@@ -1,0 +1,35 @@
+#include<iostream>
+#include<vector>
+using namespace std;
+int main(){
+    //we creating empty vector
+vector<int> vec;
+//for size
+cout<<vec.size()<<endl;
+
+//for insert element
+
+vec.push_back(25);
+vec.push_back(30);
+vec.push_back(35);
+vec.push_back(40);
+
+// now printing 
+for(int i=0;i<vec.size();i++){
+cout<<vec[i]<<" ";    
+}
+cout<<endl;
+// for deleting
+vec.pop_back();
+for(int i=0;i<vec.size();i++){
+cout<<vec[i]<<" ";    
+}
+cout<<endl;
+//for first position printing
+cout<<vec.front()<<" ";
+cout<<endl;
+
+//for ith position printing
+cout<<vec.at(1);
+return 0;
+}
