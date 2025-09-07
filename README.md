@@ -52,37 +52,11 @@ Update max_so_far if current_sum is greater.
 If current_sum becomes negative, reset it to 0.
 
 Return max_so_far as the result.
-
-// CODE 
-#include<iostream>
-#include<vector>
-#include<climits>
-using namespace std;
-
-// optimised solution o(n*2)
-
-// int main(){
-//     int arr[] = {1,2,3,4,5};
-//     int n = 5;
-//     int maxsum = INT_MIN;
-//     for(int st=0;st<n;st++){
-//         int currSUM = 0;
-//         for(int end = st;end<n;end++){
-//            currSUM+=arr[end];
-//             maxsum = max(currSUM,maxsum);
-           
-//         }
-        
-//     }
-//     cout<<"max subarray sum :"<<maxsum;
-//     return 0;
-// }
+ CODE 
+ MOST OPTIMISED O(N);
+ kadane's algorithim
 
 
-// MOST OPTIMISED O(N);
-// kadane's algorithim
-
-int main(){
     int arr[] = {3,-4,4,5,7,8,-9,8};
     int n = sizeof(arr)/sizeof(arr[0]);
     int currentsum = 0 , maximumsum = INT_MIN;
