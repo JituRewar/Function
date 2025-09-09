@@ -104,9 +104,11 @@ Explored how to convert numbers into Excel column titles (e.g., 1 → A, 28 → 
 💻 Code
 
 Check out my implementation 
-    //// MOORE'S ALGORITHUM
-vector<int> nums = {1,21,4,21,21};
+
+ vector<int> nums = {1,21,4,21,21};
+
 int freq = 0,ans = 0;
+
 int n = nums.size();
 for(int i=0;i<n;i++){
     if(freq==0){
@@ -118,11 +120,8 @@ for(int i=0;i<n;i++){
     else freq--;
 }  
 cout<<ans;
-
-    
-
-
 return 0;
+
 
 
 🔥 Slowly building consistency, one day at a time.
