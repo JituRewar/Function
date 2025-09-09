@@ -80,3 +80,50 @@ For input:
 Output:
 Maximum Subarray Sum: 6
 ⚡ Kadane’s Algorithm is a must-know for interviews as it teaches dynamic programming and greedy concepts in one go!
+
+
+
+
+🚀 DSA Series – Day 9
+📌 Topics Covered
+
+Moore’s Voting Algorithm for finding the Majority Element
+
+LeetCode #168 – Excel Sheet Column Title problem-solving
+
+✨ Key Learnings
+
+Understood how Moore’s Voting Algorithm maintains a candidate and count to efficiently identify the majority element.
+
+Learned why the algorithm runs in O(n) time and uses only O(1) space, making it optimal.
+
+Practiced edge cases where the array might not contain a majority element.
+
+Explored how to convert numbers into Excel column titles (e.g., 1 → A, 28 → AB).
+
+💻 Code
+
+Check out my implementation 
+    //// MOORE'S ALGORITHUM
+vector<int> nums = {1,21,4,21,21};
+int freq = 0,ans = 0;
+int n = nums.size();
+for(int i=0;i<n;i++){
+    if(freq==0){
+        ans = nums[i];
+    }
+    if(ans==nums[i]){
+        freq++;
+    }
+    else freq--;
+}  
+cout<<ans;
+
+    
+
+
+return 0;
+
+
+🔥 Slowly building consistency, one day at a time.
+#DSA #C++ #MooreVoting #LeetCode #CodingJourney #IIITKota
