@@ -126,3 +126,17 @@ return 0;
 
 🔥 Slowly building consistency, one day at a time.
 #DSA #C++ #MooreVoting #LeetCode #CodingJourney #IIITKota
+
+
+
+🚀 DSA Series – Day 10
+📌 Topic: Time and Space Complexity
+
+✨ Key Learnings:
+🔹 Understood how to analyze the efficiency of algorithms.
+🔹 Learned about Big-O, Big-Theta, and Big-Omega notations.
+🔹 Differentiated between time complexity (execution speed) and space complexity (memory usage).
+🔹 Explored examples like constant O(1), linear O(n), logarithmic O(log n), and quadratic O(n²) complexities.
+
+💡 Takeaway:
+Efficient coding = balancing both time ⏱️ and space 💾.
