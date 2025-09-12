@@ -140,3 +140,29 @@ return 0;
 
 💡 Takeaway:
 Efficient coding = balancing both time ⏱️ and space 💾.
+
+
+
+🚀 DSA Series – Day 11
+📌 Topic: Best Time to Buy and Sell Stock (Max Profit Problem)
+
+✨ Key Learnings:
+🔹 Understood how to track the minimum price while iterating through the array.
+🔹 Learned how to calculate maximum profit by comparing with the current price.
+🔹 Time Complexity: O(n) | Space Complexity: O(1)
+
+💻 Practice Problem:
+LeetCode #121 – Best Time to Buy and Sell Stock
+
+    int maxProfit(vector<int>& prices) {
+        int bestbuy = prices[0],maxProfit=0;
+        for(int i=0;i<prices.size();i++){
+            if(prices[i]>bestbuy){
+                maxProfit = max(maxProfit,prices[i]-bestbuy);
+            }
+            bestbuy = min(bestbuy,prices[i]);
+        }
+        return maxProfit;
+        
+    }
+
